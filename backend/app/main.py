@@ -10,8 +10,8 @@ app.add_middleware(
     # For tighter security later, replace "*" with your actual Vercel URL
     allow_origins=["https://ai-sales-agent-system.vercel.app"], 
     allow_credentials=True,
-    allow_methods=["https://ai-sales-agent-system.vercel.app"],
-    allow_headers=["https://ai-sales-agent-system.vercel.app"],
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # 2. Define the schema for incoming messages from React
