@@ -11,7 +11,7 @@ class AgentState(TypedDict):
 
 # 2. Initialize the Gemini LLM
 # This relies on the GOOGLE_API_KEY environment variable set in Render
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.7,api_key=os.environ.get("GEMINI_API_KEY"))
+llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash-latest", temperature=0.7,api_key=os.environ.get("GEMINI_API_KEY"))
 
 # 3. Define the Core Agent Node
 def sales_agent_node(state: AgentState):
