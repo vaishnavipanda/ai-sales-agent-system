@@ -9,8 +9,8 @@ app = FastAPI(title="AI Sales Agent System")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://ai-sales-agent-system.vercel.app"], 
-    allow_credentials=True,
+    allow_origins=["*"], 
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
