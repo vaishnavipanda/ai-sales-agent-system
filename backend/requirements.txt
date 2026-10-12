@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+langchain
+langgraph
+openai
+psycopg2-binary
+sqlalchemy
+redis
+chromadb
+python-multipart
+pypdf
+beautifulsoup4
